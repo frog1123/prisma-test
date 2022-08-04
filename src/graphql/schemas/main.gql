@@ -1,0 +1,12 @@
+type Query {
+  hello(id: String!): Hello!
+}
+
+type Mutation {
+  addHello: Boolean!
+}
+
+type Hello {
+  id: ID!
+  content: String!
+}
